@@ -11,9 +11,13 @@ const Navbar = () => {
   }, []);
   const navLinks = [
     { name: "Home", path: "#home" },
+    { name: "Skills", path: "#skills" },
     { name: "Project", path: "#project" },
+
     { name: "About", path: "#about" },
     { name: "Contact", path: "#contact" },
+
+    { name: "Download Resume", path: "#resume" },
   ];
   return (
     <>
@@ -56,10 +60,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div
-            className=" md:hidden bg-gray-800 px-4 pb-4"
-            
-          >
+          <div className=" md:hidden bg-gray-800 px-4 pb-4">
             <ul className="flex flex-col gap-4">
               {navLinks.map((link, index) => (
                 <li key={index}>

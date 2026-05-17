@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
 import Projects from './Components/Projects'
 import Contact from './Components/Contact'
+import Skill from './Components/Skill'
 
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
     <div className = "font-sans" scroll-behavior="smooth"> 
       <Navbar />
       <Hero />
+      <Skill />
       <Projects />
       <Contact />
     </div>
