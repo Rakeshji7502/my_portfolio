@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import { Menu, X } from "lucide-react";
+import { CodeXml, Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,11 +24,13 @@ const Navbar = () => {
       <nav className="w-full bg-gray-900 text-white sticky top-0 z-50 shadow-md">
         <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
           {/* Logo */}
+
           <h1
             className="text-2xl font-bold text-blue-400 cursor-pointer italic"
             data-aos="fade-down"
           >
-            Mern Developer
+            
+             Rakesh Mishra
           </h1>
           {/* Desktop Menu */}
           <ul

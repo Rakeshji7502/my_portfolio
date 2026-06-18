@@ -1,23 +1,23 @@
-import React from 'react'
+import React from "react";
 
-import Navbar from './Components/Navbar'
-import Hero from './Components/Hero'
-import Projects from './Components/Projects'
-import Contact from './Components/Contact'
-import Skill from './Components/Skill'
-
+import Navbar from "./Components/Navbar";
+import Hero from "./Components/Hero";
+import Projects from "./Components/Projects";
+import Contact from "./Components/Contact";
+import Skill from "./Components/Skill";
+import About from "./Components/About";
 
 const App = () => {
   return (
-    <div className = "font-sans" scroll-behavior="smooth"> 
+    <div className="font-sans" scroll-behavior="smooth">
       <Navbar />
       <Hero />
       <Skill />
       <Projects />
+      <About />
       <Contact />
     </div>
-    
-  )
-}
+  );
+};
 
-export default App
+export default App;
