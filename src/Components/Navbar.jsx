@@ -28,7 +28,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full bg-gray-950/95 backdrop-blur-md text-white sticky top-0 z-50 border-b border-gray-800 shadow-lg">
+    <nav className="w-full fixed top-0 left-0 right-0 bg-gray-950/95 backdrop-blur-md text-white z-50 border-b border-gray-800 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Navbar */}
         <div className="h-16 flex items-center justify-between">
