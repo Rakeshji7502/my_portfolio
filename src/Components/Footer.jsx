@@ -19,12 +19,7 @@ const Footer = () => {
     { name: "Contact", path: "#contact" },
   ];
 
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
+ 
 
   return (
     <footer className="relative bg-gray-950 text-white border-t border-gray-800">
@@ -183,15 +178,7 @@ const Footer = () => {
               Built with React.js & Tailwind CSS
             </p>
 
-            <button
-              type="button"
-              onClick={scrollToTop}
-              className="w-9 h-9 rounded-lg bg-gray-900 border border-gray-800 flex items-center justify-center text-gray-400 hover:text-white hover:border-blue-500 hover:bg-gray-800 transition-all duration-300"
-              aria-label="Back to top"
-              title="Back to top"
-            >
-              <ArrowUp size={17} />
-            </button>
+            
 
           </div>
 
